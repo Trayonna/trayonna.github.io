@@ -111,7 +111,7 @@ header {
 /* YOUR TURN!!! TO IMPORVE THE NAV
 nav ul { padding: SOMETHINSSSSSS} */
 
-nav ul li {
+li {
   display: inline;
 }
 
@@ -129,7 +129,7 @@ nav ul li {
   }
 
   li a {
-      display: inline;
+      /* display: inline; */
       color: white;
       text-align: center;
       padding: 14px 16px;
