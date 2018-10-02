@@ -111,6 +111,13 @@ header {
 /* YOUR TURN!!! TO IMPORVE THE NAV */
 /* nav ul { padding:} */
 
+nav {
+ font-size: 12px;
+ text-align: center;
+ text-transform: uppercase;
+ padding: 5px 5px 10px 5px;
+ max-width: 100%;
+}
 
 
 blockquote {
