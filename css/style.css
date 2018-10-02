@@ -112,7 +112,8 @@ header {
 nav ul { padding: SOMETHINSSSSSS} */
 
 nav ul li {
-  display: inline; }
+  display: inline;
+}
 
 
   ul {
@@ -128,7 +129,7 @@ nav ul li {
   }
 
   li a {
-      display: block;
+      display: inline;
       color: white;
       text-align: center;
       padding: 14px 16px;
