@@ -1,9 +1,166 @@
 /* THIS IS A COMMENT */
 
-body { color: darkslategray;
-  font-family: "Times New Roman", serif;
+/* THINGS TO REMEMBER
+Fonts
+font-family: 'Libre Baskerville', serif;
+font-family: 'Libre Franklin', sans-serif;
+
+Use of fonts
+h1, h2, h3, .display, .summary, #author, .contactinfo, bloqckquote, figcaption, LINKS IN NAV AND footer
+are using Libre Franklin
+p is using Libre Baskerville
+colors: pink, lack, white and blue
+pink = #F2087F
+blueish = #346CA4
+black = #000000
+white = #FFFFFF
+header background and nav background #06095A
+header text and nav text is white
+text is black
+links are  #F2087F with the exception of the ones in NAV
+text in black
+blockquote border is also  #F2087F
+footer background #06095A
+footer text is white
+
+Layout
+
+
+
+
+article
+
+figure
+
+img
+
+figcaption
+
+p
+
+
+div class="boxforpicture"
+
+footer
+
+p class="contactinfo"
+
+*/
+
+html {
+  box-sizing: 'border-box';
 }
-/* THIS ARE OTHER */
+
+*, *:before,
+*:after { box-sizing: 'inherit';
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #CCCCCC;
+}
+
+/********
+HEADER AND NAV STYLES
+********/
+
+header {
+  background-color: #346CA4;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Proza Libre', serif;
+  text-align: center;
+}
+
+/* headline, summary and author in header */
+
+.display {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 20px 20px 10px 20px; /* TRBLE or Top Right Bottom Left */
+}
+
+.summary {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#author {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: full-width;
+  padding-bottom: 20px;
+}
+
+#author a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#author a:hover {
+  text-decoration-color: #ffffff;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+/* YOUR TURN!!! TO IMPORVE THE NAV
+nav ul { padding: SOMETHINSSSSSS} */
+
+nav ul li {
+  display: inline; }
+
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  li {
+      float: center;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #111;
+  }
+
+  .active {
+      background-color: #4CAF50;
+  }
+
+
+
+
+
+
+
+/* article, images, figures, figcaption, blockquotes, links */
+
+article {
+  max-width: 700px;
+  marging: auto;
+  padding: 20px;
+}
+
+/* footer */
+
+
+/* THIS ARE OTHER
 
 h1 { color: black;
   font-size: 64px;
@@ -29,3 +186,4 @@ font-family: "Times New Roman", serif;
 img { max-width: 600px;
 max-height: auto;
 }
+*/
