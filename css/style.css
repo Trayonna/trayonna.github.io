@@ -120,6 +120,17 @@ nav {
 }
 
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
 blockquote {
  font-size: 28px;
  font-style: normal;
