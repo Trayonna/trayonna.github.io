@@ -108,8 +108,21 @@ header {
   text-decoration-style: wavy;
 }
 
-/* YOUR TURN!!! TO IMPORVE THE NAV
-nav ul { padding: SOMETHINSSSSSS} */
+/* YOUR TURN!!! TO IMPORVE THE NAV */
+/* nav ul { padding:} */
+
+
+
+blockquote {
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 700;
+ text-align: center;
+ padding: 5px;
+ border: 3px 0px;
+ border-color: #DB7093
+}
+
 
 li {
   display: inline;
