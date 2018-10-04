@@ -76,6 +76,13 @@ header {
 
 /* headline, summary and author in header */
 
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .display {
   font-size: 48px;
   font-weight: 700;
