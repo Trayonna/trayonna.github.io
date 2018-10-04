@@ -77,6 +77,13 @@ header {
 /* headline, summary and author in header */
 
 
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
 
 img {
     display: block;
