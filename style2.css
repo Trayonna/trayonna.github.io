@@ -1,6 +1,17 @@
 
-h1{ background-image: url(images/mtacard.jpg);
+
+/**I'm trying to add a background image to my header **/
+
+header {
+  background-image: url(images/mtacard.jpg);
+  background-size: cover;
+  color: #CCCCCC;
+  font-family: 'Proza Libre', serif;
+  text-align: center;
 }
+
+/** h1{ background-image: url(images/mtacard.jpg);
+}**/
 
 body {
   font-family: 'Open Sans', sans-serif;
