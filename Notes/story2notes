@@ -1,0 +1,46 @@
+
+
+<-- Copied this from old story2.html page that I used as a template for actual story. Deleted and pasted content here to see if real page will work after the other is deleted. 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<!-- Homework, include an image on html webpage also include comments -->
+<!--THIS IS WHERE I PLACE MY CSS LINK -->
+
+<link href="css/style.css" rel="stylesheet">
+
+<title>MTA Fare Increase in 2019</title>
+</head>
+
+<body>
+
+<h1>Your Awesome Story Headline</h1>
+
+<figure>
+<img class="irc_mi" src="https://images.fineartamerica.com/images-medium-large/pink-gerbera-daisy-isolated-on-white-jill-fromer.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="304" height="304" style="margin-top: 25px;" alt="Related image">
+</figure
+
+<h2>A picture of a flower because I love flowers</h2>
+
+<i>Your Byline</i>
+
+<p>As the new year quickly approaches new year resolutions are accompanied with new shopping deals for shoppers, new advertisements for consumers, and new mta fares for commuters.
+The transit fare is anticipated to increase by four percent in 2019, according to nbcnewyork.com.
+The single ride fare price has been the same for the past three years, but in this upcoming year that price will change.</p>
+
+<p>The current single ride fare price is $2.75 which is over 30% more than the price in 2009
+Over the years the transit system fare has increased from $0.05 in 1904 to now $2.75. This past summer Spectrum News said that fare and toll increases of 4 percent are in store, and will not be as large as the rate of inflation.</p>
+
+<blockquote>What does that mean?</blockquote>
+
+<p>Another paragraph with a <a href="https://www.journalism.cuny.edu" target="_blank">link</a> to something</p>
+
+
+
+
+</body>
+</html>
+**/
