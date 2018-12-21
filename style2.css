@@ -1,3 +1,10 @@
 
 h1{ background-image: url(images/mtacard.jpg);
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
